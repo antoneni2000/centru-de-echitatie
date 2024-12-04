@@ -1,4 +1,4 @@
-
+let currentLanguage = localStorage.getItem('language') || 'ro';
 function loadTranslations(language) {
     const translationFile = `js/translations_${language}.json`; 
 
