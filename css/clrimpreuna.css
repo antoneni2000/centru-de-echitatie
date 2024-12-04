@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@100;300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body {
+    #font-family:'Gentium Book', Poppins, sans-serif;
+    background-color: #fffffb;
+    align-content: center;
+    align-items: center;
+}
+h2{
+    font-family: 'Gentium Book Basic';
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    }
+
+p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 2em;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 1.125em;
+    }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--other-color);
+    color: #fff;  
+}
+
+.navbar-menu{
+    display: flex;
+    align-itemS: center;
+    margin:0;
+    padding:0;
+    font-size: 20px;
+    font-family: 'Gentium Book Basic';
+    text-align: left;
+    margin-right: 20px; 
+     }
+
+.navbar img{
+        width: 170px;
+        height: 150px;
+        margin-left: 25px;
+      }
+    
+.navbar-menu ul{
+        margin:0;
+        padding:0;
+        display: flex;
+      }
+     
+ .navbar-menu li {
+       list-style-type: none;  
+      }
+.navbar-menu li a{
+       color: #fff;
+       text-decoration: none; 
+       padding: 1rem;
+       display: block;
+       }
+     
+ .navbar-menu a:hover{
+       color: #bebebe;
+       transition: ease-in 300ms;
+       }     
+.toggle-button{
+      position: absolute;
+      top: .70rem;
+      right: 1rem;
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 30px;
+      height: 21px;
+      }
+     
+.toggle-button .bar{
+      height: 3px;
+      width: 100%;
+      background-color: #fff;
+      border-radius: 9px;
+      }
+    
+#hero-section{
+        background: url(../images/hero-horse-riding4.jpg) no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       } 
+       
+ #hero-section h1{
+        font-family: 'Gentium Book Basic';
+        color: #fff;
+        margin-bottom: 0.5em;
+       }
+       
+.hero-container {
+         text-align: center;
+        }
+.book-btn{
+            color: #f8f8ff;
+            background-color: #18191a;
+            text-decoration: none;
+            padding: 0.7em 1em;
+            border-radius: 8px;
+           }
+          
+ a.book-btn{
+            margin-left: 16rem;
+          }
+          
+.book-btn:hover {
+            background-color: #f8f8ff;
+            color: #18191a;
+            transition: ease-in 300ms;
+            }
+            
+           
+          
+ #about-section{
+            width: 100%;
+            height: 350px;
+            margin-top: 30px;
+            } 
+          
+ .about-content{
+            text-align: center;
+              }
+            
+.about-content span.quote{
+            font-style: italic;
+            text-align: left;
+            font-family: 'Gentium Book Basic';
+            color: var(--font-light);
+            font-size: 1.2em;
+            }
+                    
+           
+.banner{
+           background-color: #277487;
+           width: 100%;
+           margin-bottom: 50px;
+          } 
+          
+.top-banner .banner{
+           width: 100%;
+           height: 150px;
+          }
+          
+.banner .title{
+           color: #fff
+           }
+            
+.fa-circle-check{
+           color: #fff;
+           font-size: 1.23em
+           }
+            
+ h2.title{
+           font-size: 24px;
+            padding-top: 15px;
+            }
+            
+p.title{
+           color: var(--font-light);
+           font-size: 16px;
+           font-family:'Poppins';
+           padding-top: 5px;
+           margin-top: 5px;
+           margin-bottom: 10px;
+           }
+            
+.title strong{
+           color: #fff;
+           font-weight: 300;
+           line-height: 22px;
+           } 
+            
+.title a{
+           color: #fff;  
+           }
+            
+          
+          
+section.vi-section {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+          }
+          
+ .beginner-container{
+           flex: 1 1 55%;
+           flex-wrap: wrap;
+           max-width: 700px;
+           margin: 2.5em;
+           margin-top: 80px;
+           }
+            
+.video{
+           position: relative;
+           padding-bottom: 56.25%;
+           height: 0;
+          }
+            
+.video iframe{
+           border: 3px solid #fff;
+           border-color: #ad773e;
+           position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 100%;
+          }
+          
+#first-video{
+           transform: scale(1.2);
+           transition: ease 100ms;
+           transition: transform .2s;
+           margin-bottom: 50px;
+          }
+          
+#video{
+           width: 580px; 
+           height: 350px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+          }
+          
+section .banner{
+           width: 100%;
+           padding-bottom: 15px;
+           height: auto;
+          }
+          
+        
+            
+.community{
+           background: url(../images/Pony-Day-The-Grove.png) no-repeat center center;
+           background-size: cover;
+           height: 450px;
+           text-align: center;
+            }
+          
+.community h2, h3, h4{ 
+            color: #fff;
+            background-color: rgba(60, 60, 60, 0.6);
+           }
+            
+.community h3, h4{
+           font-size: 18px;
+           font-family: 'Gentium Book Basic';
+           font-weight: 400;
+           }
+          
+.community a{
+           color:#fff;
+           text-decoration:underline;
+           }
+              
+          
+          
+.container-booking{
+           width: 90%;
+           margin: 0 auto;
+            }
+                  
+.booking{
+         box-shadow: 0px 5px 13px -3px rgba(0,0,0,0.75);
+           display:flex;
+           flex-wrap: wrap;
+            }
+                  
+ .descrip, .form{
+           width: 45%;
+           padding: 5%;
+           }
+                 
+.descrip h2{
+           text-transform:uppercase;
+           color: var(--font-light);
+           font-weight: 400;
+           margin-top: 0;
+           }
+                  
+.descrip h2 strong{
+           font-weight: 700;
+           color: #000;
+           }
+                  
+ .descrip p{
+           color: var(--font-light);
+           font-size: 14px;
+           line-height: 22px;
+           }
+                  
+.descrip ul{
+           padding-left: 16px;
+           list-style: circle;
+           }
+                 
+.fa-phone{
+           color: #a77037;
+           font-size: 1.25em
+           }
+          
+ .fa-envelope{
+            color: #ad773e;
+            font-size: 1.25em
+            }
+                
+.fa-mailbox{
+           color: #ad773e;
+           font-size: 1.25em
+            }
+                
+.fa-address-card{
+           color: #ad773e;
+           font-size: 1.25em
+           }
+                
+.quote p{
+           font-style: italic;
+           padding: 2%;
+           border-left: 4px solid var(--primary-color);
+           }
+                  
+.descrip ul li {
+           margin: 10px 0;
+             }
+                    
+.form{
+            background: var(--secondary-color);
+             }
+                  
+.form form{
+           color: var(--font-light);
+           display: flex;
+           flex-wrap: wrap;
+            }
+                  
+.inpbox.full{
+           width: 100%;
+           background: #fff;
+           padding: 3%;
+           margin-bottom: 20px;
+           display: flex;
+           flex-wrap: wrap;
+                }
+                    
+label{
+           color:var(--font-light);
+           font-family: 'sans-serif';
+           font-size: 1rem;
+           width: 150px;
+                }
+                     
+.form select{
+            border-bottom: 1px;
+            width: 48%;
+            color: var(--font-light);
+            padding: 0 4%;
+              }
+                  
+form select:focus, .form input:focus{
+            outline: none;
+              }
+                  
+.inpbox{
+            width: 48%;
+           background: #ffff;
+           padding: 3%;
+           margin-bottom: 20px;
+           margin-right: 2%;
+                }
+                  
+.inrbox{
+           width: 33%;
+            color: #000;
+                }
+                
+.inrbox h3{
+            font-size: 1.4rem;
+            }
+        
+                    
+
+                  
+.form input[type="radio"]{
+           width: unset;
+                }
+                  
+button.sub, button.reset{       
+           padding: 2% 3%;
+           font-weight: 700;
+           text-transform: uppercase;
+           border: 0;
+             }
+                  
+ button.sub{
+           margin-right: 3%;
+           background: var(--primary-color);
+           border: none;
+           color: black;
+           padding: 15px 32px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size: 16px;
+                }
+                    
+button.reset{
+           background: #000;
+           color: #fff;
+           border: none;
+           padding: 15px 32px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size: 16px;
+                }
+            
+         
+ .memories h2{
+            font-size: 2rem;
+            font-family:'Gentium Book Basic';
+            text-align: center;
+            padding: 2%;
+             }
+                  
+.images-gallery{
+             width: 80%;
+             margin: 100px auto 50px;
+             display: grid;
+             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+             grid-gap: 30px; 
+              }
+                                
+.images-gallery img{
+              width: 100%;
+              cursor: pointer;
+               }
+                  
+.images-gallery img:hover{
+              transform: scale(1.5);
+              transition: ease 100ms;
+              transition: transform .2s;
+            } 
+                 
+
+footer {
+            height: 150px;         
+            background-color: var(--other-color);
+            }
+            
+.copyright {
+            margin-top: 20px;
+            text-align: center;  
+            }
+.copyright h3 {
+            font-family: 'sans-serif'; 
+            font-size: 16px; 
+            padding:10px 0 0 1px;
+            font-weight:400;
+            color: #fff;
+            }
+            
+.copyright p{
+            font-size: 13px;
+            padding: 1px;
+            color: #fff;
+            margin: 0;
+            }
+ul .social-networks{
+            margin-top: 0;
+            }
+            
+.social-networks {
+            text-align:center;
+            margin-top: 1px;             
+            }
+            
+.social-networks > li {
+            display: inline;       
+            }
+ .social-networks i {
+            font-size: 135%;
+            margin: 1%;
+            padding: 1%;
+            color: #f7f6f6;
+            }
+          
+ul {
+    list-style-type: none;
+    margin: 100;
+    padding: 0;
+    overflow: hidden;
+    background-color: #592f0d;
+}
+h1 {
+	color: #592f0d;
+	padding: 20px;
+	text-align: center;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+
+li a:hover {
+    background-color: #2c1807;
+}
+
+.registration-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+			position: absolute;
+			top: 65%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+}
+.registration-form h2 {
+            margin-bottom: 20px;
+            text-align: center;
+}
+.form-group {
+            margin-bottom: 15px;
+}
+.form-group label {
+            display:block;
+            font-weight: bold;
+				
+}
+.form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+}
+.form-group input[type="submit"] {
+            background-color: #2c1807;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+}
+.form-group input[type="submit"]:hover {
+            background-color: #eebb90;
+}
